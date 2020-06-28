@@ -1,0 +1,12 @@
+# Default ignored files
+.idea/artifacts/*
+.idea/inspectionProfiles/*
+.idea/copyright/*
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/workspace.xml
+
+# Output folder
+out/
+
+*.iml
