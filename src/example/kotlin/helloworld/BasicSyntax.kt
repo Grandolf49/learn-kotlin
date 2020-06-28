@@ -1,14 +1,16 @@
+package example.kotlin.helloworld
+
 /**
  * Created by grandolf49 on 28-06-2020
  *
- * Basics of Kotlin
+ * Getting Started with Kotlin
  */
 
 /**
  * Main Function: Entry point of the program
  */
 fun main() {
-    println("Basic of Kotlin")
+    println("Getting started with Kotlin")
 
     /**
      * Function invocations
@@ -116,6 +118,7 @@ fun main() {
      * For Loop
      */
     println("For Loop")
+    // Creating a read only list of strings
     val items = listOf("apple", "banana", "oranges")
     for (item in items) {
         println(item)
