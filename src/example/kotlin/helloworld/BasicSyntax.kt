@@ -45,23 +45,6 @@ fun main() {
     println()
 
     /**
-     * Conditional Expressions
-     */
-    println("Conditional Expressions")
-    fun maxOf(a: Int, b: Int): Int {
-        if (a > b) {
-            return a
-        } else {
-            return b
-        }
-    }
-    println("Max of 34 and 53 is ${maxOf(34, 53)}")
-
-    fun maxOfAsExpression(a: Int, b: Int) = if (a > b) a else b // Using if as an expression
-    println("Max of -4 and -5 is ${maxOfAsExpression(-4, -5)}")
-    println()
-
-    /**
      * Nullable Values and Null Check
      *
      * 1. A reference must be explicitly marked as Nullable when null value is possible
@@ -112,55 +95,6 @@ fun main() {
     println("'Hello World' is of type: ${getType("Hello World")}")
     println("3.14 is of type: ${getType(3.14)}")
     println("'{ println(\"I am lambda\") }' is of type: ${getType({ println("I am lambda") })}")
-    println()
-
-    /**
-     * For Loop
-     */
-    println("For Loop")
-    // Creating a read only list of strings
-    val items = listOf("apple", "banana", "oranges")
-    for (item in items) {
-        println(item)
-    }
-    // For loop by index
-    for (index in items.indices) {
-        println("item at $index is ${items[index]}")
-    }
-    println()
-
-    /**
-     * While Loop
-     */
-    println("While Loop")
-    var index = 0
-    while (index < items.size) {
-        println("item at $index is ${items[index]}")
-        index++
-    }
-    println()
-
-    /**
-     * When Expression
-     */
-    println("When Expression")
-    fun describeObject(obj: Any): String =
-        when (obj) {
-            is String -> {
-                "String"
-            }
-            is Int -> {
-                "Integer"
-            }
-            is Double -> {
-                "Double"
-            }
-            else -> {
-                "Don't know the type"
-            }
-        }
-    println("34 is ${describeObject(34)}")
-    println("'34' is ${describeObject("34")}")
     println()
 
     /**
