@@ -13,3 +13,4 @@ A project to illustrate all usages of Kotlin Language. Reference: [Official Kotl
     - [Control Flow (if, when, for, while)](https://github.com/Grandolf49/learn-kotlin/blob/master/src/learn/kotlin/basics/ControlFlow.kt) - [Source](https://github.com/Grandolf49/learn-kotlin/blob/master/src/example/kotlin/basics/ControlFlow.kt)
     - [Returns and Jumps (break, continue, labels)](https://github.com/Grandolf49/learn-kotlin/blob/master/src/learn/kotlin/basics/ControlFlow.kt) - [Source](https://kotlinlang.org/docs/reference/returns.html)
 3. Classes and Objects
+    - [Classes and Inheritance](https://github.com/Grandolf49/learn-kotlin/blob/master/src/learn/kotlin/oop/ClassesObjects.kt) - [Source](https://kotlinlang.org/docs/reference/classes.html)
