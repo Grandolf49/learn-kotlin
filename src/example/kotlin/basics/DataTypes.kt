@@ -7,7 +7,7 @@ package example.kotlin.basics
  */
 
 fun main() {
-    println("Basic Data Types in Kotlin")
+    println("Data Types in Kotlin")
 
     /**
      * Numbers in Kotlin:
