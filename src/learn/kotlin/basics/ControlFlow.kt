@@ -1,4 +1,4 @@
-package example.kotlin.basics
+package learn.kotlin.basics
 
 /**
  * Created by grandolf49 on 28-06-2020

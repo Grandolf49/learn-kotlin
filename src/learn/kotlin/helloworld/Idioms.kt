@@ -1,4 +1,4 @@
-package example.kotlin.helloworld
+package learn.kotlin.helloworld
 
 /**
  * Created by grandolf49 on 28-06-2020
